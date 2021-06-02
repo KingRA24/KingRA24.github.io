@@ -9,6 +9,7 @@
   <body>
 
     <script type="text/javascript">
+
     function start1(){
 
       alert("Please fill in any information you know.");
@@ -184,7 +185,7 @@
     </script>
 
     <noscript>Your browser does not support JavaScript. Looks like you're doing your homework yourself.</noscript>
-
+    
     <div class="header" id="header">
       <p>E.Z.A. Trig.</p>
       <h3>Too lazy to do your Trig. homework?</h3>
@@ -198,82 +199,7 @@
       <div class="angles">
         <h2>Angle Measures</h2>
         <ul>
-          <li id="angleA">
-            <form>
-              <label for="angleA">Measure of angle A:</label>
-              <input type="number" id="aaform" name="angleA"></input>
-            </form>
-
-            <script>
-            import React from 'react';
-import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles((theme) => ({
-root: {
-  '& .MuiTextField-root': {
-    margin: theme.spacing(1),
-    width: 200,
-  },
-},
-}));
-
-export default function ValidationTextFields() {
-const classes = useStyles();
-
-return (
-  <form className={classes.root} noValidate autoComplete="off">
-    <div>
-      <TextField error id="standard-error" label="Error" defaultValue="Hello World" />
-      <TextField
-        error
-        id="standard-error-helper-text"
-        label="Error"
-        defaultValue="Hello World"
-        helperText="Incorrect entry."
-      />
-    </div>
-    <div>
-      <TextField
-        error
-        id="filled-error"
-        label="Error"
-        defaultValue="Hello World"
-        variant="filled"
-      />
-      <TextField
-        error
-        id="filled-error-helper-text"
-        label="Error"
-        defaultValue="Hello World"
-        helperText="Incorrect entry."
-        variant="filled"
-      />
-    </div>
-    <div>
-      <TextField
-        error
-        id="outlined-error"
-        label="Error"
-        defaultValue="Hello World"
-        variant="outlined"
-      />
-      <TextField
-        error
-        id="outlined-error-helper-text"
-        label="Error"
-        defaultValue="Hello World"
-        helperText="Incorrect entry."
-        variant="outlined"
-      />
-    </div>
-  </form>
-);
-}
-
-            </script>
-
-          </li>
+          <li id="angleA">Measure of angle A:</li>
           <li id="angleB">Measure of angle B:</li>
           <li id="angleC">Measure of angle C:</li>
         </ul>
