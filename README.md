@@ -1,3 +1,8 @@
+---
+icon: house
+label: Home
+---
+
 Welcome! More is coming soon! 
 =============================
 
