@@ -5,8 +5,7 @@ This is a test of retype, here is a link to github: [!button Click Me](https://g
 
 >This is a quote, read it.
 
-Function to print "Hello world"
-------------------------
+### Function to print "Hello world"
 +++JavaScript
 ```js # 
  let test = () => console.log("Hello world");
