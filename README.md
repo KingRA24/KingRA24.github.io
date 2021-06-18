@@ -6,11 +6,11 @@ This is a test of retype, here is a link to github: [!button Click Me](https://g
 >This is a quote, read it.
 
 +++JavaScript
-```js
+```js # 
  let test = () => console.log("Hello world");
  ```
  +++Java
- ```java
+ ```java #
  double price = 14.99;
  ```
  +++
