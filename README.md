@@ -5,8 +5,6 @@ This is a test of retype, here is a link to github: [!button Click Me](https://g
 
 >This is a quote, read it.
 
-```
-{
+```{
  let test = () => console.log("Hello world");
-}
-```
+}```
