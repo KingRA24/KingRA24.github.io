@@ -5,10 +5,12 @@ This is a test of retype, here is a link to github: [!button Click Me](https://g
 
 >This is a quote, read it.
 
-+++Tab 1
++++JavaScript
 ```js
  let test = () => console.log("Hello world");
  ```
- +++Tab 2
- `js var myVar = "Name";`
+ +++Java
+ ```java
+ double price = 14.99;
+ ```
  +++
