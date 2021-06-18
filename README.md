@@ -1,5 +1,5 @@
 ---
-icon: home
+icon: home-outline
 label: Home
 ---
 
