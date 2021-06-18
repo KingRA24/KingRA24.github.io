@@ -1,5 +1,6 @@
 ---
 icon: home-fill
+description: This is a work in progress, please stand by.
 label: Home
 ---
 
