@@ -5,12 +5,16 @@ This is a test of retype, here is a link to github: [!button Click Me](https://g
 
 >This is a quote, read it.
 
+Function to print "Hello world"
+------------------------
 +++JavaScript
 ```js # 
  let test = () => console.log("Hello world");
  ```
  +++Java
  ```java #
- double price = 14.99;
+ public void test(){
+  System.out.println("Hello world");
+ }
  ```
  +++
